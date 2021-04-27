@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="excercise.js"></script>
+    <style>
+        .link:hover{
+            cursor:hand;
+            color:violet;
+        }
+        .infor{
+            display: flex;
+        }
+        .infor div{
+            background-color: yellow;
+            margin-right: 30px;
+            display: flex;
+            flex-direction: column;
+        
+            visibility:hidden;
+        }
+        .Menu6{
+            visibility:hidden;
+        }
+    </style>
+</head>
+<body>
+    <p id="p1"></p>
+    <input type="text" id="i1">
+    <input type="text" onkeydown="countCharacter()" id="i2">
+    <input type="text"  id="i3">
+    <textarea name="" id="r" cols="30" rows="10"></textarea>
+    <button onclick="displayRa()">OK</button>
+    <input type="radio" id="r1" value="nam" name="nam">nam
+    <input type="radio" id="r2" value="nu" name="nam">nu
+    <br>
+    <p style="font-family:Arial;font-style:italic; font-size:16px">Quantrimang.com chào bạn! </p>
+     <br>
+     <a onmouseover="this.style.color='yellow'" onmouseout="this.style.color='black'" class="link" onclick="window.open('https://quantrimang.com');">Trang chủ </a> 
+    <p class="p" style="color:white;background-color: blue;">
+        <span class="p1" onmousemove="changeColorOn('d1')" onmouseout="changeColorOut('d1')" >Các liên kết</span>
+        <span class="p2" onmousemove="changeColorOn('d2')" onmouseout="changeColorOut('d2')">&nbsp Tin tức</span>
+        <span class="p3" onmousemove="changeColorOn('d3')" onmouseout="changeColorOut('d3')">&nbsp Các hoạt động</span></p>
+     <div class="infor">
+         <div id="d1">
+             <a href="" >xinchao</a><a href="">xinchao</a><a href="">xinchao</a>
+         </div>
+         <div id="d2" >
+            <a href="">xinchao</a><a href="">xinchao</a><a href="">xinchao</a>
+         </div>
+         <div id="d3"  >
+            <a href="">xinchao</a><a href="">xinchao</a><a href="">xinchao</a>
+         </div>
+     </div>
+   
+
+    
+    
+</body>
+<script>
+   
+</script>
+</html>
