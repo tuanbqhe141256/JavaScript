@@ -1,0 +1,74 @@
+var user = [
+  {
+    idUser: 1,
+    name: "Duc",
+    idClass: 11,
+    role: "student",
+  },
+  {
+    idUser: 2,
+    name: "Binh",
+    idClass: 11,
+    role: "student",
+  },
+  {
+    idUser: 3,
+    name: "Nam",
+    idClass: 12,
+    role: "student",
+  },
+  {
+    idUser: 4,
+    name: "Long",
+    idClass: 11,
+    role: "student",
+  },
+  {
+    idUser: 5,
+    name: "Phuong",
+    idClass: 12,
+    role: "student",
+  },
+  {
+    idUser: 6,
+    name: "Phuc",
+    idClass: 11,
+    role: "student",
+  },
+  {
+    idUser: 7,
+    name: "Manh",
+    idClass: 13,
+    role: "student",
+  },
+  {
+    idUser: 8,
+    name: "Huy",
+    idClass: 12,
+    role: "student",
+  },
+  {
+    idUser: 9,
+    name: "Hoang",
+    idClass: 12,
+    role: "teacher",
+  },
+  {
+    idUser: 10,
+    name: "Thai",
+    idClass: 11,
+    role: "teacher",
+  },
+  {
+    idUser: 11,
+    name: "Nam",
+    idClass: 13,
+    role: "teacher",
+  },
+];
+
+// 1. Lọc array user trả về danh sách student, teacher
+// ket qua teacher=[{},{},{}],student=[{},{},{},....]
+
+// 2, Lọc học viên xem mỗi lớp có những học viên nào, giảng viên nào
+// ket qua {idClass:13 , hocSinh :[{},{},{}...], teacher: [{}]}
