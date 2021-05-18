@@ -28,3 +28,7 @@
 + Chi cho phep push code tu nhanh nay sanh dung nhanh do vd master=>master,C1=>C1.
 + git push origin branch(branch nay la nhanh ở local của mình .Tức là chỉ cần push len origin.Chon push nôi dung trong nhanh nào. No sẽ tự day lên nhánh cùng tên trên remote .Nếu chưa có nhánh đấy thì sẽ tạo mới nhánh đó.)
 
+- git remote [-v | --verbose]
+- git remote add [-t <branch>] [-m <master>] [-f] [--[no-]tags] [--mirror=(fetch|push)] <name> <url>
+- git remote rename <old> <new>
+- git remote remove <name>
