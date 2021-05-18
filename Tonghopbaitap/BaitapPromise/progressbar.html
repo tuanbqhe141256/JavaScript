@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="w3-border">
+        <div class="w3-grey" style=""></div>
+    </div>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+    integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+    crossorigin="anonymous"></script>
+<script>
+   let p1=new Promise(()=>{
+   
+       let wid=0;
+       let ab=setInterval(()=>{     
+            if(wid>=100)clearInterval(ab);
+       $('.w3-grey').attr("style","height:24px;width:"+wid+"%");
+           wid++;
+           console.log(wid);
+       },100);
+       
+   })
+   p1.then((data)=>{
+        
+   }).catch((err)=>{
+       console.log(err);
+   })
+</script>
+
+</html>

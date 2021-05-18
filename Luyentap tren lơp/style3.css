@@ -1,0 +1,107 @@
+*{
+   padding: 0px;
+   margin: 0px;
+   box-sizing: border-box;
+  
+}
+
+.menu{
+  display: none;
+}
+.row{
+  position: relative;
+  height: 95px;
+  display: flex;
+  align-items: center;
+  width: 100vw;
+
+}
+.In,.logo,.searchMain,.nav{
+  display: flex;
+
+}
+
+
+.logo{
+  justify-content: center;
+}
+.signIn{
+  padding-left: 70% !important;
+}
+.In{
+  width: 100px;
+}
+.st{
+   padding-right:20px;
+}
+.nav{
+  width: 370px !important;
+
+}
+.sinAll{
+  position: absolute;
+  right: 20px !important;
+
+}
+.menuNew{
+  position: absolute;
+  top:60px;
+  list-style: none;
+  background-color: #495057;
+  width: 200px;
+  color:white;
+  font-size: 14px;
+  line-height: 30px;
+  display: none;
+  font-family: fontCustom;
+}
+.menuNew li:hover{
+   background-color: black;
+}
+.menuIcon:hover .menuNew{
+    display: block ;
+}
+.menuIcon:hover{
+   width:200px;
+
+}
+@media screen and (max-width:1220px){
+  .title{
+    display: none;
+  }
+}
+@media screen and (max-width:930px){
+  .searchMain,.nav,.sin{
+    display: none !important
+  }
+  .title{
+    display: block;
+  }
+  .logo{
+    width: 150px !important;
+    margin-right: 30%;
+  }
+  .menu{
+    display: block;
+    position: absolute;
+    left: 20px;
+  }
+  .row{
+    padding-left: 40%;
+  }
+  
+  
+}
+@media screen and (max-width:700px){
+  .sin{
+    display:none;
+  }
+  .sinAll{
+    position: absolute;
+    right: 10px !important;
+  }
+}
+@font-face{
+  font-family:fontCustom;
+  src: url('font/Nova\ Regular.ttf');
+}

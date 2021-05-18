@@ -1,0 +1,30 @@
+ ++++++++try.github.io++++++++++++++(test git website)
+
+- git clone
+- git config --global user.name "John Doe"
+- git config --global user.email johndoe@example.com
+- git --version
+- git remote add origin master ww..
+
+- git add .
+- git commit -m "ads"
+- git push -u origin master
+- git push origin branch (push nhanh moi len )
+- git pull origin branch --allow-unrelated-histories( pull data ve ghi de data hien co)
+
+- git checkout branch/commit
+- git checkout -b (out ra nhan cu vao tao nhanh moi)
+
+- git push origin --delete beta (Ví dụ bạn cần xóa nhánh beta, trên remote có tên origin)
+- git branch -d <name> (xoa branch)
+- git branch -d issuel(??)
+
+- git branch -a (Bạn có thể kiểm tra các nhánh có trên remote bằng lệnh)
+- git reset -hard branch/commit (xoa commit tat ca commit or branch tu commit ban chon toi commit head va tro ve commit ban chon)
+- git revert branch/commit(tao mot ban sao cua commit ban chon va di chuyen toi ban sao do)
+- git push -f
+
++ Cho phep pull ve 1 nhanh tu nhieu nhanh khac
++ Chi cho phep push code tu nhanh nay sanh dung nhanh do vd master=>master,C1=>C1.
++ git push origin branch(branch nay la nhanh ở local của mình .Tức là chỉ cần push len origin.Chon push nôi dung trong nhanh nào. No sẽ tự day lên nhánh cùng tên trên remote .Nếu chưa có nhánh đấy thì sẽ tạo mới nhánh đó.)
+

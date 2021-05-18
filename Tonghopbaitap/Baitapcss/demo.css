@@ -1,0 +1,254 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: var(--bs-font-sans-serif);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.head{
+    display:flex;
+    justify-content: space-between;
+    color:white;
+    background-color: black;
+    position:fixed;
+    z-index: 1;
+    width: 100%;
+    height: 50px;
+    top: 0px;
+ 
+}
+.hleft{
+    display: flex;
+}
+.hright{
+    padding: 12px 24px;
+    display: flex;
+    align-items: center;
+}
+.hleft div{
+    padding: 12px 24px;
+}
+.hright:hover{
+    background-color: red;
+}
+.hleft div:hover{
+    background-color: #ccc!important;
+    color: black;
+}
+
+#list li:hover{
+    background-color: #ccc!important;  
+}
+#list li{
+    background-color: white;
+    color: black;
+    width: 160px;
+    list-style: none;
+    padding:8px 24px;
+    
+}
+
+.select{
+   position: relative;
+}
+#list{
+    display: none;
+    position: absolute;
+    top: 48px;
+    right: -53px;
+
+}
+
+.select:hover #list{
+    display: block;
+    z-index: 1;
+}
+#list:hover{
+    display: block;
+}
+.menu{
+    display: none;
+}
+
+.slide{
+    position: relative;
+    width: 100%;
+}
+.Tema{
+    width: 100%;
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    padding-top: 32px!important;
+    padding-bottom: 32px!important;
+}
+.title{
+    text-align: center;
+    line-height: 50px;
+}
+.subtitle{
+    text-align: center; 
+}
+.music{
+    text-align: center;
+}
+.music h1{
+    text-transform: uppercase;
+}
+.date .music h1{
+    color: white;
+}
+.dateAll{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.music p{
+    font-style: italic;
+    opacity: 0.5;
+    line-height: 40px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+.band{
+    padding: 64px 16px;
+    font-family: "Lato", sans-serif;
+    max-width: 768px;
+}
+.text p{
+    text-align: justify;
+ 
+}
+.img{
+    display: flex;
+    padding: 32px 0px;
+}
+.img div{
+    width: 33.33%;
+    text-align: center;
+ 
+}
+.img div img{
+    width: 137.26px;
+    height : 137.26px;
+    border-radius: 4px;
+}
+.date{
+    max-width: 768px;
+    padding: 64px 16px;
+    font-family: "Lato", sans-serif;
+}
+.re{
+    font-style: italic;
+    opacity: 0.5;
+    line-height: 40px;
+    color: white;
+}
+.listInput{
+    background-color: white;
+    list-style: none;
+    padding: 0px;
+    width: 100%;
+    
+}
+
+.listInput li{
+
+    height: 40px;
+    padding: 8px 16px;
+    border-bottom: 0.5px solid gray;
+    width: 100%;
+}
+.listInput li span{
+    background-color: red;
+    margin-left: 30px;
+    color:white;    
+}
+.allCard{
+    display: flex;
+    padding-top: 30px;
+    justify-content: space-between;
+}
+.card{
+    width: 32%;
+   
+}
+.hright{
+    position: relative;
+}
+.listNav{
+    position: absolute;
+    top: 44px;
+    width: 100vw;
+    background-color: blue;
+    right: 0px;
+    height: 120px;
+    line-height: 40px;
+    list-style: none;
+    background-color: black;
+    padding-left:0px;
+}
+
+.hleft div{
+    text-transform: uppercase;
+}
+.listNav li{
+    font-size: 1rem;
+    text-transform: uppercase;
+    width: 100%;
+    padding-left: 40px;
+}
+.listNav{
+    display: none;
+}
+
+.listNav li:hover{
+    background-color: #ccc;
+}
+@media screen and (max-width:600px){
+    .menu{
+        display: block;
+    }
+    .search,.nav,.select,.Tema{
+        display: none;
+        
+    }
+    .img div{
+        width: 290px;
+        height: 370px;
+        padding-top: 10px;
+        
+    }
+    .img div img{
+        width: 290px;
+        height: 290px;
+        border-radius: 4px;
+    }
+    .img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .allCard{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-items: space-between;
+    }
+    .card{
+        margin-bottom: 20px;
+        width: 290px;
+    }
+    .hright:hover .listNav{
+        display: block;
+       }
+}

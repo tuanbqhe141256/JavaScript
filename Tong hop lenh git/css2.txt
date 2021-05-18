@@ -1,0 +1,4 @@
+position: sticky  
+!
+.menu:hover .list{ // list trong menu
+}

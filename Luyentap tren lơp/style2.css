@@ -1,8 +1,11 @@
 *{
+    padding: 0;
+    margin: 0;
     font-family: fontCustom;
     box-sizing: border-box;
     color: white;
-  
+    border: 1px solid red;
+
 }
 .head{
     display: flex;
@@ -84,8 +87,7 @@
 }
 .search{
     flex-grow:0 !important;
-    flex-basis:250px;
-    margin-left: -110px;
+    width: 100%;
     
 }
 
@@ -118,3 +120,33 @@ body{
     transition: opacity .15s ease-in;
     /* transition: height 400px 0.6s ease-in-out, background-color 0.6s;  */
 }
+@media screen and (max-width:1400px){
+    .title,.sin{
+        display: none;
+    }
+    
+}
+@media screen and (max-width:1282px){
+    .nav .st{
+        display: none;
+    }
+}
+@media screen and (max-width:700px){
+    .search{
+        display:none;
+    }
+    .title{
+        display: block;     
+    }
+    .logo{
+        position: absolute;
+
+        flex-basis: 300px;
+        margin-left: 0px;
+    }
+    .signIn{
+        flex-basis: 100px;
+    }
+    
+}
+.nav{margin-right:100px}

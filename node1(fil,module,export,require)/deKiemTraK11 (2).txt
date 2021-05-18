@@ -1,0 +1,45 @@
+var array = [1, 9, 5, 9, 3, 4, 7, 6, 0, 2, 1, 3];
+
+//1. 0.5đ viết function tính tổng các phần tử của array
+
+//2. 0.5đ viết function sắp xếp array theo thứ tự giảm dần
+
+//3. 1đ viết function lọc ra số chẵn
+
+//4. 1đ viết function lọc trùng, mỗi phần tử xuất hiện 1 lần
+
+var nhanVien = [
+  { name: "Thuan", khuVuc: 10, boPhan: "ke toan" },
+  { name: "Tuan", khuVuc: 11, boPhan: "sale" },
+  { name: "Thuan", khuVuc: 13, boPhan: "van tai" },
+  { name: "Tuan", khuVuc: 12, boPhan: "marketing" },
+  { name: "Nam", khuVuc: 11, boPhan: "marketing" },
+  { name: "Hung", khuVuc: 11, boPhan: "sale" },
+  { name: "Ha", khuVuc: 13, boPhan: "van tai" },
+  { name: "Trung", khuVuc: 12, boPhan: "marketing" },
+];
+
+var diaPhan = [
+  { khuVuc: 10, tinh: "Ha Noi" },
+  { khuVuc: 11, tinh: "Ha Nam" },
+  { khuVuc: 12, tinh: "HCM" },
+  { khuVuc: 13, tinh: "Hai Phong" },
+];
+//1. 1đ viết function sắp xếp nhân viên theo khu vực thứ tự tăng dần
+
+//2. 1đ viết function trả về mỗi khu vực có bao nhiêu nhân viên
+// VD [{khuVuc:10, soLuong:1},{khuVuc:11, soLuong:3},...]
+
+//3. 1đ viết function để thêm tỉnh cho từng nhân viên theo object diaPhan
+
+//4. 1đ mỗi bộ phận có bao nhiêu nhân viên {ketoan:1,sale:2}
+
+var text = "E:/K8-nodemy/Khải 246 sang/Nop bai/debai.txt";
+//1. 1đ viết function in ra tên file
+
+//2. 1đ file debai.txt bị đổi tên thành debai.js, hãy in ra đường dẫn của file debai.js
+// "E:/K8-nodemy/Khải 246 sang/Nop bai/debai.js"
+
+//3. 1đ viết function đầu vào là đường dẫn tương đối trả ra đường dẫn của file đó
+// biết đang ở file có đường dẫn "E:/K8-nodemy/Khải 246 sang/Nop bai/debai.txt"
+// ví dụ link('../../lopK11/test.js') trả về "E:/K8-nodemy/lopK11/test.js"

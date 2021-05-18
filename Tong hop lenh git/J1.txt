@@ -1,0 +1,4 @@
+1---toggle thay doi anh bang class
+
+element(naodo).classList.toggle("ten clas moi")
+2-- IsNaN
